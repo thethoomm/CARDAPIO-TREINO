@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    color: #f3f3f3;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+h3 {
+    font-size: 14px;
+}
+p {
+    font-size: 9px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header .titulo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    margin-left: 0;
+    width: 100px;
+    height: 50px;
+}
+header h1 {
+    margin-left: 100px;
+    color: #F2784B;
+}
+
+main {
+    display: flex;
+    width: 50vw;
+    font-size: 14px;
+}
+
+.burguers li {
+    margin-bottom: 15px;
+
+}
+
+.burguers ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.burguers ul li  strong{
+    margin-left: 10px;
+}
+
+.burguers h3 {
+    margin-bottom: 5px;
+}
+
+.burguers h3, .burguers strong {
+    color: #F2784B;
+}
+
+.burguers p {
+    line-height: 12px;
+}
+
+.burguers .preco {
+    font-size: 14px;
+}
+
+section.complementos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.complementos div {
+    margin-bottom: 10px;
+}
+
+.complementos h2{
+    font-size: 14px;
+    margin-bottom: 7px;
+    background-color: #F2784B;
+    padding: 2px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.complementos div ul li{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.complementos ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.complementos ul li  strong{
+    margin-left: 10px;
+}
+
+ion-icon {
+    width: 50px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    width: 50vw;
+    background-color: #F2784B;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+footer .contato{
+    padding: 5px;
+    margin-right: 40px;
+}
